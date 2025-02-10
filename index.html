@@ -7,7 +7,6 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="/imgs/favicon.svg" type="image/svg+xml">
-
 </head>
 <body>
     <!-- Navigation bar -->
@@ -49,58 +48,7 @@
         <div class="absolute inset-0 flex items-center justify-center text-black text-5xl">
             Indian Cusine Done Right
         </div>
-    </div>
-
-    <!-- <div class="max-w-screen-xl mx-auto pb-30">
-
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-fr">
-            <div class="grid gap-4 auto-rows-fr">
-                <div class="self-end">
-                    <img class="h-80 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/aloochana.webp" alt="">
-                </div>
-                <div class="self-end">
-                    <img class="h-80 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/alootikki.webp" alt="">
-                </div>
-                <div class="self-end">
-                    <img class="h-80 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/bittergourdcurry.webp" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4 auto-rows-fr">
-                <div>
-                    <img class="h-110 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/butternutsquashcurry.webp" alt="">
-                </div>
-                <div>
-                    <img class="h-110 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/cauliflowerbiryani.webp" alt="">
-                </div>
-                <div>
-                    <img class="h-110 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/chaattikki.webp" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4 auto-rows-fr">
-                <div class="self-end">
-                    <img class="h-80 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/chakli.webp" alt="">
-                </div>
-                <div class="self-end">
-                    <img class="h-80 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/cornsoup.jpeg" alt="">
-                </div>
-                <div class="self-end">
-                    <img class="h-80 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/daal.webp" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4 auto-rows-fr">
-                <div>
-                    <img class="h-110 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/dabeli.webp" alt="">
-                </div>
-                <div>
-                    <img class="h-110 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/drumstickcurry.webp" alt="">
-                </div>
-                <div>
-                    <img class="h-110 w-80 object-cover rounded-lg transition-all duration-300 blur-xs hover:blur-none" src="imgs/eggplantpotatocurry.webp" alt="">
-                </div>
-            </div>
-        </div> -->
-        
-        
+    </div>    
 
     <div class="max-w-screen-xl mx-auto pb-30">
         <h1 class="text-5xl text-center pb-12">
@@ -164,28 +112,32 @@
                         <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
                         <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                     </div>
-                    <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+                    <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="submit()">Submit</button>
                 </div>
             </div>
         </section>
     </div>
 
+    
     <footer class="bg-white">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
             <div class="sm:flex sm:items-center sm:justify-between">
                 <img src="imgs/logo.svg" class="h-16" alt="Aam Logo" />
                 <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                     <li>
-                        <a href="about.html" class="hover:underline me-4 md:me-6">About</a>
+                        <a href="index.html" class="hover:underline me-4 md:me-6">Home</a>
                     </li>
                     <li>
                         <a href="menu.html" class="hover:underline me-4 md:me-6">Menu</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline me-4 md:me-6">Contact</a>
+                        <a href="about.html" class="hover:underline me-4 md:me-6">About</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:underline">References</a>
+                        <a href="contact.html" class="hover:underline me-4 md:me-6">Contact</a>
+                    </li>
+                    <li>
+                        <a href="references.html" class="hover:underline">References Page</a>
                     </li>
                 </ul>
             </div>
@@ -193,5 +145,12 @@
             <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="index.html" class="hover:underline">aam</a>. All Rights Reserved.</span>
         </div>
     </footer>
+
+    <script>
+        function submit() {
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+        }
+    </script>
 </body>
 </html>

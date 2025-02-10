@@ -1,25 +1,25 @@
 [
     {
         "name": "Vegetable Biryani",
-        "price": "$10.00",
+        "price": "$15.00",
         "description": "Made with basmati rice, mixed vegetables, and a blend of aromatic spices like saffron, cumin, cinnamon, and garam masala, cooked together to create a fragrant and flavorful dish.",
         "image": "imgs/vegetablebiryani.webp"
     },
     {
         "name": "Cauliflower Biryani",
-        "price": "$10.00",
+        "price": "$14.50",
         "description": "Made with basmati rice, cauliflower florets, and a mix of spices like cumin, cinnamon, cloves, and garam masala, creating a fragrant and flavorful one-pot dish.",
         "image": "imgs/cauliflowerbiryani.webp"
     },
     {
         "name": "Jackfruit Biryani",
-        "price": "$10.00",
+        "price": "$17.25",
         "description": "Made with basmati rice, young jackfruit, and a blend of spices like cumin, cloves, cinnamon, and garam masala, creating a savory, aromatic, and hearty biryani.",
         "image": "imgs/jackfruitbiryani.webp"
     },
     {
         "name": "Hyderabadi Veg Biryani",
-        "price": "$10.00",
+        "price": "$14.25",
         "description": "Made with basmati rice, mixed vegetables, and a fragrant blend of spices like saffron, garam masala, and mint, cooked in a traditional dum style for a rich and flavorful taste.",
         "image": "imgs/hyderabadivegbiryani.webp"
     },

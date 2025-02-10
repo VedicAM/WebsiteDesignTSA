@@ -16,11 +16,5 @@
         "price": "$13.50",
         "description": "Made with lentils, vegetables, and a blend of aromatic spices like cumin, coriander, and curry leaves.",
         "image": "imgs/mulligatawnysoup.webp"
-    },
-    {
-        "name": "Palak Soup",
-        "price": "$11.50",
-        "description": "Made primarily from fresh spinach (palak), along with onions, garlic, ginger, and a blend of spices such as cumin, turmeric, and garam masala",
-        "image": "imgs/palaksoup.webp"
     }
 ]

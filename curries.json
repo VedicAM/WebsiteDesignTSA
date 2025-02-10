@@ -7,25 +7,25 @@
     },
     {
         "name": "Butternut Squash Curry",
-        "price": "$11.00",
+        "price": "$13.00",
         "description": "Made with butternut squash, onions, tomatoes, coconut milk, and a blend of spices like turmeric, cumin, and garam masala, creating a rich and flavorful curry.",
         "image": "imgs/butternutsquashcurry.webp"
     },
     {
         "name": "Bitter Gourd Curry",
-        "price": "$11.00",
+        "price": "$12.50",
         "description": "Made with bitter gourd (karela), onions, tomatoes, and spices like turmeric, cumin, and coriander, cooked in a tangy and savory curry sauce.",
         "image": "imgs/bittergourdcurry.webp"
     },
     {
         "name": "Eggplant Potato Curry",
-        "price": "$11.00",
+        "price": "$10.25",
         "description": "Made with eggplant, potatoes, onions, tomatoes, and a variety of spices like cumin, coriander, and garam masala, creating a hearty and flavorful curry.",
         "image": "imgs/eggplantpotatocurry.webp"
     },
     {
         "name": "Drumstick Curry",
-        "price": "$11.00",
+        "price": "$9.50",
         "description": "Made with drumsticks (moringa pods), tomatoes, onions, and spices like turmeric, cumin, and coriander, simmered in a rich and flavorful curry sauce.",
         "image": "imgs/drumstickcurry.webp"
     }
