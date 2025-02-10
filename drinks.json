@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Mango Lassi",
+        "price": "$7.00",
+        "description": "Made with ripe mangoes, yogurt, sugar, and a hint of cardamom.",
+        "image": "imgs/mangolassi.jpg"
+    },
+    {
+        "name": "Sweet Lassi",
+        "price": "$7.00",
+        "description": "Made with yogurt, sugar, and a splash of water or milk.",
+        "image": "imgs/sweetlassi.jpg"
+    },
+    {
+        "name": "Masala Chaas",
+        "price": "$10.00",
+        "description": "Made with yogurt, water, cumin, coriander, mint, and a pinch of salt.",
+        "image": "imgs/masalachaas.jpg"
+    },
+    {
+        "name": "Masala Chai",
+        "price": "$10.00",
+        "description": "Made with black tea, milk, sugar, and a blend of spices such as cardamom, cinnamon, ginger, and cloves.",
+        "image": "imgs/masalachai.jpg"
+    },
+    {
+        "name": "Filter Coffee",
+        "price": "$7.50",
+        "description": "Made with freshly brewed coffee, milk, and sugar, using traditional South Indian drip brewing methods.",
+        "image": "imgs/filtercoffee.webp"
+    }
+]

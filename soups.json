@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Makka Soup",
+        "price": "$13.00",
+        "description": "Made with sweet corn, onions, garlic, ginger, cumin, coriander, turmeric, and fresh cilantro, creating a rich, aromatic base with a hint of warmth",
+        "image": "imgs/makkasoup.webp"
+    },
+    {
+        "name": "Daal Soup",
+        "price": "$12.00",
+        "description": "Made with lentils, onions, garlic, ginger, tomatoes, and a variety of spices like cumin, turmeric, and garam masala.",
+        "image": "imgs/daal.webp"
+    },
+    {
+        "name": "Mulligatawny Soup",
+        "price": "$13.50",
+        "description": "Made with lentils, vegetables, and a blend of aromatic spices like cumin, coriander, and curry leaves.",
+        "image": "imgs/mulligatawnysoup.webp"
+    },
+    {
+        "name": "Palak Soup",
+        "price": "$11.50",
+        "description": "Made primarily from fresh spinach (palak), along with onions, garlic, ginger, and a blend of spices such as cumin, turmeric, and garam masala",
+        "image": "imgs/palaksoup.webp"
+    }
+]

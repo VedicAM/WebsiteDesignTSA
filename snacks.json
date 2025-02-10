@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Chaat Tikki",
+        "price": "$9.00",
+        "description": "Made with mashed potatoes, chickpeas, spices, and herbs, shaped into patties and fried until crispy.",
+        "image": "imgs/chaattikki.webp"
+    },
+    {
+        "name": "Dabeli",
+        "price": "$10.00",
+        "description": "Made with spiced potato filling, tamarind chutney, pomegranate, and peanuts, all sandwiched in a soft pav (bread roll).",
+        "image": "imgs/dabeli.webp"
+    },
+    {
+        "name": "Aloo Tikki",
+        "price": "$7.00",
+        "description": "Made with mashed potatoes, peas, and spices like cumin, coriander, and garam masala, shaped into patties and fried until golden and crispy.",
+        "image": "imgs/alootikki.webp"
+    },
+    {
+        "name": "Pan Fried Paneer",
+        "price": "$6.50",
+        "description": "Made with paneer (Indian cottage cheese), marinated in spices like turmeric, chili powder, and garam masala, then pan-fried until golden and crispy.",
+        "image": "imgs/panfriedpaneer.webp"
+    },
+    {
+        "name": "Chakli",
+        "price": "$5.00",
+        "description": "Made with rice flour, chickpea flour, and a blend of spices like cumin and sesame seeds, then deep-fried into crispy, spiral-shaped snacks.",
+        "image": "imgs/chakli.webp"
+    }
+]
